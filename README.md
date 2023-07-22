@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ## Quick start
 
-1. Download the pre-trained models and the data. [Link](https://drive.google.com/file/d/1COL7sKcJT3WRU4tic-3S5xsiu1KGg3Qc/view?usp=sharing)
+1. Download the pre-trained model and the data. [Link](https://drive.google.com/file/d/1COL7sKcJT3WRU4tic-3S5xsiu1KGg3Qc/view?usp=sharing)
 2. Put the downloaded zip files into the root directory of this project.
 ```
 unzip shakeit.zip
@@ -42,7 +42,7 @@ unzip shakeit.zip
 python3 apply_camera_shake.py --input_video demo/01.mp4  --output_video results/01_shaked.mp4
 ```
 
-You will find a `demo_shaked.mp4` file in `results` if everything works. And the video should be like this:
+You will find a `01_shaked.mp4` file in `results` if everything works. And the video should be like this:
 
 https://github.com/vv4alekseev/ShakeIt/assets/57874123/8454dbff-a2cf-4905-988e-8617909c1923
 
@@ -63,7 +63,7 @@ After implementing the camera shake effect, I sought to enhance its realism by i
 
 ### Improving Results: Introducing Motion Blur
 
-Explore motion blur to add a dynamic sense of speed and movement to the camera shake effect. By calculating motion degrees along the x and y axes, we can generate tailored blur kernels for each frame, creating realistic motion blur. The provided backlog.py code offers a foundation for implementing this enhancement. Users can experiment with motion intensity by incorporating motion blur and customizing the experience to their creative goals. This feature adds authenticity and excitement to the videos, captivating viewers and immersing them in the content.
+Explore motion blur to add a dynamic sense of speed and movement to the camera shake effect. By calculating motion degrees along the x and y axes, we can generate tailored blur kernels for each frame, creating realistic motion blur. The provided `backlog.py` code offers a foundation for implementing this enhancement. Users can experiment with motion intensity by incorporating motion blur and customizing the experience to their creative goals. This feature adds authenticity and excitement to the videos, captivating viewers and immersing them in the content.
 
 ### Conclusion:
 The research process has been an enriching and iterative journey, combining insights from video inpainting techniques, extensive self-recorded experiments, and the development of the waveform function. The result is the Camera Shake Effect Generator - ShakeIt, an advanced tool that empowers users to create captivating and authentic selfie videos with dynamic and smooth camera shake effects.
