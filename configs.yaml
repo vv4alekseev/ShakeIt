@@ -22,4 +22,4 @@ x_frequencies: !!python/tuple
 - 1.0   # Minimum frequency for the horizontal (x-axis) oscillation.
 - 5.0   # Maximum frequency for the horizontal (x-axis) oscillation.
 padding: 32        # The number of pixels to add as padding around the video frames.
-each_x_frame: 50   # The interval at which the inpainting is applied to the video frames.
+each_x_frame: 10   # The interval at which the inpainting is applied to the video frames.
