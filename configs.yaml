@@ -1,0 +1,25 @@
+# YAML Configuration for Video Oscillation Generation
+
+# This YAML configuration file contains parameters to generate video oscillations. Video oscillations
+# add dynamic motion effects to a video by applying sinusoidal oscillations along the horizontal and
+# vertical axes. These oscillations create a visually pleasing and dynamic effect that can be used for
+# various creative and artistic purposes.
+
+# The oscillation is applied to each frame of the video, producing a smooth and continuous motion effect.
+# The user can control various aspects of the oscillation, including the amplitude (strength) and frequency
+# (speed) for both the horizontal (x-axis) and vertical (y-axis) directions.
+
+y_amplitudes: !!python/tuple
+- 0.5   # Minimum amplitude for the vertical (y-axis) oscillation.
+- 2.5   # Maximum amplitude for the vertical (y-axis) oscillation.
+y_frequencies: !!python/tuple
+- 5.0   # Minimum frequency for the vertical (y-axis) oscillation.
+- 10.0  # Maximum frequency for the vertical (y-axis) oscillation.
+x_amplitudes: !!python/tuple
+- 0.0   # Minimum amplitude for the horizontal (x-axis) oscillation.
+- 0.8   # Maximum amplitude for the horizontal (x-axis) oscillation.
+x_frequencies: !!python/tuple
+- 1.0   # Minimum frequency for the horizontal (x-axis) oscillation.
+- 5.0   # Maximum frequency for the horizontal (x-axis) oscillation.
+padding: 32        # The number of pixels to add as padding around the video frames.
+each_x_frame: 50   # The interval at which the inpainting is applied to the video frames.
