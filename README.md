@@ -32,8 +32,11 @@ pip install -r requirements.txt
 ## Quick start
 
 1. Download the pre-trained models and the data. [Link](https://drive.google.com/file/d/1COL7sKcJT3WRU4tic-3S5xsiu1KGg3Qc/view?usp=sharing)
-2. Put the downloaded zip files into the root directory of this project
-3. Run the shaking effect demo
+2. Put the downloaded zip files into the root directory of this project.
+```
+unzip shakeit.zip
+```
+3. Run the shaking effect demo.
 
 ```
 python3 apply_camera_shake.py --input_video demo/01.mp4  --output_video results/01_shaked.mp4
