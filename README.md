@@ -39,6 +39,8 @@ python3 apply_camera_shake.py --input_video demo/01.mp4  --output_video results/
 
 If everythings works, you will find a `demo_shaked.mp4` file in `results`. And the video should be like:
 
+https://github.com/vv4alekseev/ShakeIt/assets/57874123/dc452f55-7931-492e-8931-14f68cdf6116
+
 ## Research Process: Exploring Video Inpainting, Simulating Shaking Effects, and Creating Smooth Translations
 
 ### Video Inpainting Techniques
