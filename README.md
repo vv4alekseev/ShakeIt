@@ -7,6 +7,8 @@ Welcome to the Camera Shake Effect Generator - ShakeIt repository! This project 
 - Realistic Camera Shake: Our algorithm applies natural camera movements, replicating the motion experienced during handheld recording, resulting in a genuine and immersive effect.
 - Inpainting Model: The integrated inpainting model intelligently removes black borders that may arise due to the camera shake effect, providing polished and professional-looking videos.
 
+![pipeline](assets/pipeline.png)
+
 ## Prerequisites
 - Linux (We tested our codes on Ubuntu 18.04.6)
 - Anaconda
