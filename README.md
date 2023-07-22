@@ -54,6 +54,10 @@ After implementing the camera shake effect, I sought to enhance its realism by i
 
 ![wave](assets/wave.png)
 
+### Improving Results: Introducing Motion Blur
+
+Explore motion blur to add a dynamic sense of speed and movement to the camera shake effect. By calculating motion degrees along the x and y axes, we can generate tailored blur kernels for each frame, creating realistic motion blur. The provided backlog.py code offers a foundation for implementing this enhancement. By incorporating motion blur, users can experiment with motion intensity, customizing the experience to their creative goals. This feature adds authenticity and excitement to the videos, captivating viewers and immersing them in the content.
+
 ### Conclusion:
 The research process has been an enriching and iterative journey, combining insights from video inpainting techniques, extensive self-recorded experiments, and the development of the wave-form function. The result is the Camera Shake Effect Generator - ShakeIt, an advanced tool that empowers users to create captivating and authentic selfie videos with dynamic and smooth camera shake effects.
 
