@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## Quick start
 
 1. Download the pre-trained model and the data. [Link](https://drive.google.com/file/d/1COL7sKcJT3WRU4tic-3S5xsiu1KGg3Qc/view?usp=sharing)
-2. Put the downloaded zip files into the root directory of this project.
+2. Put the downloaded zip file into the root directory of this project.
 ```
 unzip shakeit.zip
 ```
