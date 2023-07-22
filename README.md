@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## Quick start
 
 
-1. Download the pre-trained models and the data.
+1. Download the pre-trained models and the data. [Link](https://www.google.com)
 2. Put the downloaded zip files to the root directory of this project
 3. Run the shaking effect demo
 
@@ -47,8 +47,8 @@ This work is licensed under MIT license. See the LICENSE for details.
 
 If you have any questions, please contact us via
 
-- vv4alekseev@gmail.com
+- [vv4alekseev@gmail.com](mailto:vv4alekseev@gmail.com)
 
 ## Acknowledgement
 
-Some parts of this repo are based on DeepFillv2-pytorch.
+Some parts of this repo are based on [DeepFillv2-pytorch](https://github.com/nipponjo/deepfillv2-pytorch).
