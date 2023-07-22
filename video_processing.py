@@ -71,7 +71,7 @@ def init_model(device: str) -> nn.Module:
     logging.info(message)
     
     generator = Generator(cnum_in=5, cnum=48, return_flow=False).to(device)
-    generator_state_dict = torch.load("states_pt_places2.pth")['G']
+    generator_state_dict = torch.load("weights/states_pt_places2.pth")['G']
     generator.load_state_dict(generator_state_dict, strict=True)
 
     message = green_message("Inpainting model initialized!")
